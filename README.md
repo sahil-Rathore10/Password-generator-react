@@ -62,6 +62,32 @@ useState → Manage states like password length, toggles, and generated password
 
 useEffect → Regenerate password when dependencies change.
 
+🖊️ Example Code Snippet
+<input 
+  type="range"
+  min={6}
+  max={100}
+  value={length}
+  className="cursor-pointer"
+  onChange={(e) => setLength(e.target.value)}
+/>
+<label>Length: {length}</label>
+
+📌 Future Improvements
+
+Add strength meter (Weak / Medium / Strong).
+
+Dark/Light mode toggle.
+
+Allow users to choose specific character sets.
+
+👨‍💻 Author
+
+Developed by Sahil Rathore ✨
+📧 Feel free to connect with me on https://www.linkedin.com/in/sahil-rathore-5a555a203/
+.
+
+
 useCallback → Optimize functions like passwordGenerator & copyPasswordToClipboard.
 
 useRef → Reference the password input field for clipboard copying.
