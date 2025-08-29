@@ -28,7 +28,7 @@ Tailwind CSS for styling
 
 Clone this repository:
 
-git clone https://github.com/your-username/password-generator.git
+git clone https://github.com/sahil-Rathore10/Password-generator-react
 cd password-generator
 
 
@@ -65,5 +65,6 @@ useEffect → Regenerate password when dependencies change.
 useCallback → Optimize functions like passwordGenerator & copyPasswordToClipboard.
 
 useRef → Reference the password input field for clipboard copying.
+
 
 
